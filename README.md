@@ -5,7 +5,8 @@ plan**, installed, switched and rolled back with one Python file and no dependen
 
 We wrote them after a scraper behind residential proxies took one of our sites down for about ten hours: thousands
 of home addresses with one to three requests each, Chrome user agents, about 225 requests a second. Per-address rate
-limits never fire on traffic like that. These rules look at what such traffic lacks instead.
+limits never fire on traffic like that. These rules look at what such traffic lacks instead. The whole story,
+with what we saw in the logs, is in our [field notes](https://lightsoutfactory.ai/field-notes/scraper-flood-cloudflare-free-plan/).
 
 | Rule | Default | Matches (GET requests for pages) | Action |
 |---|---|---|---|
