@@ -53,4 +53,9 @@ itself when a site falls over from overload (and off again hours later), summari
 challenged by network, country, user agent and path, and adds a bot gate inside your Python app for the floods that get
 past the edge. The story of the flood that started it: [field notes](https://lightsoutfactory.ai/field-notes/scraper-flood-cloudflare-free-plan/).
 
+Also free from us: [bot-gate](https://github.com/lightsoutfactory/bot-gate) (keep pages up for people during a scraper
+flood), [translation-checks](https://github.com/lightsoutfactory/translation-checks) (catch translations that would
+break your app) and [vllm-health](https://github.com/lightsoutfactory/vllm-health) (a vLLM health check that never waits
+in the queue).
+
 MIT licence.
