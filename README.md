@@ -20,6 +20,14 @@ are not pages. Switch the emergency rule on during a flood: people with a cookie
 untouched, and a scraper that keeps no cookies meets a challenge on every request. It is off normally because it also
 challenges someone who types your address into a fresh browser.
 
+## Install
+
+```sh
+pip install git+https://github.com/lightsoutfactory/cloudflare-free-shield
+```
+
+That gives you the `cf-free-shield` command; `python3 cf_free_shield.py` does the same from a copy of the one file.
+
 ## Use
 
 ```sh

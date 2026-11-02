@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cloudflare-free-shield"
+version = "1.0.0"
+description = "Three Cloudflare Free-plan WAF rules that stop most scraper floods at the edge."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.9"
+authors = [{ name = "LightsOut Factory", email = "support@lightsoutfactory.ai" }]
+keywords = ["ai-crawlers", "anti-bot", "bot-protection", "cloudflare", "cloudflare-waf", "ddos", "firewall", "python", "rate-limiting", "scraping", "self-hosted", "waf", "web-scraping"]
+classifiers = ["Programming Language :: Python :: 3", "Operating System :: OS Independent"]
+
+[project.urls]
+Homepage = "https://lightsoutfactory.ai/open-source/"
+Source = "https://github.com/lightsoutfactory/cloudflare-free-shield"
+
+[project.scripts]
+cf-free-shield = "cf_free_shield:main"
+
+[tool.setuptools]
+py-modules = ["cf_free_shield"]
